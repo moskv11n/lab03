@@ -66,7 +66,7 @@ cmake -H. -B_build
 -- Detecting CXX compile features - done
 -- Configuring done (0.7s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/formatter_lib/_build
+-- Build files have been written to: /Users/Egor/moskv11n/workspace/tasks/lab03/formatter_lib/_build
 ```
 ---
 ### Создание файлов formatter.o, libformatter.a:
@@ -112,7 +112,7 @@ EOF
 cat >> CMakeLists.txt <<EOF
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CURRENT_SOURCE_DIR /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/formatter_ex_lib)
+set(CMAKE_CURRENT_SOURCE_DIR /Users/Egor/moskv11n/workspace/tasks/lab03/formatter_ex_lib)
 EOF
 ```
 ```bash
@@ -151,7 +151,7 @@ cmake -H. -B_build
 -- Detecting CXX compile features - done
 -- Configuring done (0.6s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/formatter_ex_lib/_build
+-- Build files have been written to: /Users/Egor/moskv11n/workspace/tasks/lab03/formatter_ex_lib/_build
 ```
 ---
 ### Создание файлов formatter_ex.o, libformatter_ex.a:
@@ -210,7 +210,7 @@ project(hello_world)
 cat >> CMakeLists.txt <<EOF
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CURRENT_SOURCE_DIR /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03)
+set(CMAKE_CURRENT_SOURCE_DIR /Users/Egor/moskv11n/workspace/tasks/lab03)
 EOF
 ```
 ```bash
@@ -254,7 +254,7 @@ cmake -H. -B_build
 -- Detecting CXX compile features - done
 -- Configuring done (0.7s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/hello_world_application/_build
+-- Build files have been written to: /Users/Egor/moskv11n/workspace/tasks/lab03/hello_world_application/_build
 ```
 ---
 ### Содержимое CMakeLists.txt:
@@ -264,7 +264,7 @@ project(hello_world)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CURRENT_SOURCE_DIR /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03)
+set(CMAKE_CURRENT_SOURCE_DIR /Users/Egor/moskv11n/workspace/tasks/lab03)
 
 add_executable(hello_world ${CMAKE_CURRENT_SOURCE_DIR}/hello_world_application/hello_world.cpp)
 
@@ -313,7 +313,7 @@ EOF
 cat >> CMakeLists.txt <<EOF
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CURRENT_SOURCE_DIR /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03)
+set(CMAKE_CURRENT_SOURCE_DIR /Users/Egor/moskv11n/workspace/tasks/lab03)
 EOF
 ```
 ```bash
@@ -363,7 +363,7 @@ cmake -H. -B_build
 -- Detecting CXX compile features - done
 -- Configuring done (0.7s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/solver_application/_build
+-- Build files have been written to: /Users/Egor/moskv11n/workspace/tasks/lab03/solver_application/_build
 ```
 ---
 ### Содержимое CMakeLists.txt:
@@ -373,7 +373,7 @@ project(solver)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CURRENT_SOURCE_DIR /Users/mihailerosenko/z1qnezt/workspace/tasks/lab03)
+set(CMAKE_CURRENT_SOURCE_DIR /Users/Egor/moskv11n/workspace/tasks/lab03)
 
 # Добавляем директиву include_directories для поиска заголовочных файлов
 include_directories(
@@ -402,7 +402,7 @@ cmake --build _build
 ```
 ### Вывод:
 ```
-[ 25%] Building CXX object CMakeFiles/solver_lib.dir/Users/mihailerosenko/z1qnezt/workspace/tasks/lab03/solver_lib/solver.cpp.o
+[ 25%] Building CXX object CMakeFiles/solver_lib.dir/Users/Egor/moskv11n/workspace/tasks/lab03/solver_lib/solver.cpp.o
 [ 50%] Linking CXX static library libsolver_lib.a
 [ 50%] Built target solver_lib
 [ 75%] Building CXX object CMakeFiles/solver.dir/equation.cpp.o
